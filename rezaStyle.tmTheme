@@ -88,19 +88,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Exception, Special, User-defined constant</string>
-			<key>scope</key>
-			<string>support.type.exception, keyword.other.special-method, constant.character, constant.other</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#CB4B16</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Variable, Function name</string>
 			<key>scope</key>
 			<string>variable, variable.language, variable.other, support.other.variable, entity.name.function, support.function</string>
@@ -114,6 +101,45 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Function call, Special Method, GitGutter changed</string>
+			<key>scope</key>
+			<string>meta.function-call - meta.function-call.arguments, keyword.other.special-method, markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8ABEB7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#B0958B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Exception, Special, User-defined constant</string>
+			<key>scope</key>
+			<string>support.type.exception, keyword.other.special-method, constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CB4B16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
 			<string>keyword, storage</string>
@@ -123,6 +149,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#DE935F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator, Keyword Operator Class</string>
+			<key>scope</key>
+			<string>keyword.operator, keyword.operator.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a78bb0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -158,45 +197,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#c0c0c0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Operator, Keyword Operator Class</string>
-			<key>scope</key>
-			<string>keyword.operator, keyword.operator.class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#a78bb0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function call, Special Method, GitGutter changed</string>
-			<key>scope</key>
-			<string>meta.function-call - meta.function-call.arguments, keyword.other.special-method, markup.changed.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#8ABEB7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B0958B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -251,6 +251,7 @@
 				<string>#b09423</string>
 			</dict>
 		</dict>
+		<!---- JavaScript ---->
 		<dict>
 			<key>name</key>
 			<string>JavaScript: Embedded</string>
@@ -366,6 +367,7 @@
 				<string>#a78bb0</string>
 			</dict>
 		</dict>
+		<!---- CSS ---->
 		<dict>
 			<key>name</key>
 			<string>CSS: Embedded</string>
@@ -477,6 +479,7 @@
 				<string>#9CB4AA</string>
 			</dict>
 		</dict>
+		<!---- HTML / XML ---->
 		<dict>
 			<key>name</key>
 			<string>HTML&#x2f;XML: String</string>
@@ -586,6 +589,7 @@
 				<string>#c0c0c0</string>
 			</dict>
 		</dict>
+		<!---- PHP ---->
 		<dict>
 			<key>name</key>
 			<string>PHP: Embedded</string>
